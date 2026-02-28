@@ -1,0 +1,61 @@
+/* ── Main Header ───────────────────────────────────── */
+.main-header {
+    background: linear-gradient(135deg, #1e1e3e 0%, #2d2d6e 50%, #1a1a4e 100%);
+    padding: 2rem 2.5rem;
+    border-radius: 16px;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(100, 100, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 50, 0.3);
+}
+
+.main-header h1 {
+    color: #ffffff;
+    font-size: 2.2rem;
+    margin: 0 0 0.5rem 0;
+    font-weight: 700;
+}
+
+.main-header p {
+    color: rgba(200, 200, 255, 0.85);
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* ── Primary Button ────────────────────────────────── */
+.stButton > button[kind="primary"] {
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 15px rgba(79, 70, 229, 0.4);
+}
+
+.stButton > button[kind="primary"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(79, 70, 229, 0.6);
+}
+
+/* ── Tabs ──────────────────────────────────────────── */
+.stTabs [data-baseweb="tab"] {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.stTabs [aria-selected="true"] {
+    color: #4f46e5;
+    border-bottom-color: #4f46e5;
+}
+
+/* ── Sidebar ───────────────────────────────────────── */
+section[data-testid="stSidebar"] {
+    background: #f8f8ff;
+}
+```
+
+Save it with **Ctrl+S** and you're done. Your `assets` folder should now show:
+```
+assets/
+└── style.css   ← just created

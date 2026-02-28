@@ -27,7 +27,8 @@ Built entirely with free-tier APIs making it accessible and deployable by anyone
 Students frequently miss key points during lectures because it is difficult to listen and write notes simultaneously. Existing solutions require expensive software or technical expertise. LectureAI provides an intelligent, easy-to-use platform that automates the entire note-taking process using generative AI.
 
 ---
-
+## 📸 Screenshot
+![LectureAI Screenshot](screenshot.png)
 ## ✨ Features
 
 | Feature | Description |

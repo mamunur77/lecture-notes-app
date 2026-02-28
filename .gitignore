@@ -1,0 +1,11 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+.idea/
+*.mp3
+*.mp4
+*.wav
+*.m4a

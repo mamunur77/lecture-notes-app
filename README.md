@@ -22,12 +22,7 @@ Built entirely with free-tier APIs making it accessible and deployable by anyone
 
 ---
 
-## 🌐 Live Demo
 
-Try the deployed application here:
-
-👉 https://lecture-notes-ai.streamlit.app/
----
 
 ## 🎯 Problem Statement
 
